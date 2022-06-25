@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link rel="Stylesheet" href="sendmsg.css"
+</head>
+
+<body>
+	<div class="header">
+    	<ul>
+        	<li><a href="MainPage.html"><b>Home</a></li>
+            <li><a href="plan.html">Trip Plans</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="login.php"><b>Login</a></li>
+         </ul>
+      </div>
+      <div class="wrapper">
+      	<div class="title">
+        	Send Message
+       	</div>
+      <form name="sendmsg" action="insertMsg.php" method="post">
+      <div class="form">
+      	<div class="input_field">
+        <span class="details">Name</span>
+        	<input name="name" type="text" required class="input" id="firstname" placeholder="Name">
+         </div>
+      	<div class="input_field">
+        <span class="details">Email</span>
+        	<input name="email" type="text" required class="input" id="lastname" placeholder="Email">
+         </div>
+         <div class="input_field">
+         <span class="details">How Many Days</span>
+        	<input name="days" type="text" required class="input" id="country" placeholder="eg: 14 Days">
+         </div>
+         <div class="input_field">
+         <span class="details">How Many Members</span>
+        	<input name="members" type="text" required class="input" id="phonenumber" placeholder="eg: 10 members">
+         </div>
+         <div class="input_field">
+         <span class="details">Vehicle Mode</span>
+        	<input name="vehicle" type="text" required class="input" id="email" placeholder="eg: BMW">
+         </div>
+         <div class="input_field">
+         <span class="details">Others</span>
+        	<input name="others" type="text" required class="input" id="password" placeholder="Others">
+         </div>
+         <input name="send" type="submit" class="btn" id="register" onClick="regFunction()" value="Send">
+         </form>
+        </div>  
+</body>
+</html>

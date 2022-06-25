@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link rel="Stylesheet" href="hotel.css"
+</head>
+
+<body>
+	<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link rel="Stylesheet" href="location.css"
+</head>
+
+<body>
+	<div class="header">
+    	<ul>
+        	<li><a href="MainPage.html"><b>Home</a></li>
+            <li><a href="plan.html">Trip Plans</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="login.php">Login</a></li>
+         </ul>
+      </div>
+    <section>
+    <div class="item"><img src="Mainpage/238.jpg" alt="">
+    </div>
+    <div class="item"><img src="Mainpage/239.jpg" alt="">
+    </div>
+    <div class="item"><img src="Mainpage/240.jpg" alt="">
+    </div>
+    <div class="item"><img src="Mainpage/241.jpg" alt="">
+    </div>
+    <div class="item"><img src="Mainpage/242.jpg" alt="">
+    </div>
+    <div class="item"><img src="Mainpage/243.jpg" alt="">
+    </div>
+    <div class="item"><img src="Mainpage/244.jpg" alt="">
+    </div>
+    <div class="item"><img src="Mainpage/245.jpg" alt="">
+    </div>
+    <div class="item"><img src="Mainpage/249.jpg" alt="">
+    </div>
+    <div class="item"><img src="Mainpage/246.jpg" alt="">
+    </div>
+	</section> 
+    <script>
+		const items = document.querySelectorAll('.item');
+		items.forEach(item=>{
+			item.addEventListener('click',()=>{
+				items.forEach(item=> item.classList.remove('show'))
+				item.classList.add('show')
+			})
+		})
+	</script>
+    <footer class="footer">
+  	 	<div class="foo">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			<h4>company</h4>
+  	 			<ul>
+  	 				<li><a href="aboutus.html">About Us</a></li>
+  	 				<li><a href="login.php">Our Services</a></li>
+  	 				<li><a href="mainpage.html">Gallary</a></li>
+  	 				<li><a href="login.php">Hotel Details</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>GET HELP</h4>
+  	 			<ul>
+  	 				<li><a href="aboutus.html">FAQ</a></li>
+  	 				<li><a href="contactus.html">Contact Us</a></li>
+  	 				<li><a href="login.php">Payment Plan</a></li>
+                    <li><a href="aboutus.html">about us</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>TOURS</h4>
+  	 			<ul>
+  	 				<li><a href="plan.html">Mountain Side</a></li>
+  	 				<li><a href="plan.html">Cultural Trinngle Side</a></li>
+  	 				<li><a href="plan.html">Beache Side</a></li>
+  	 				<li><a href="plan.html">More Tours</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>FOLLOW US</h4>
+  	 			<ul>
+  	 				<li><a href="#">Facebook</i></a></li>
+  	 				<li><a href="#">Youtube</i></a></li>
+  	 				<li><a href="#">Instagram</i></a></li>
+  	 				<li><a href="#">Twitter</i></a></li>
+  	 			</ul>
+  	 		</div>
+  	 	</div>
+  	 </div>
+  </footer>
+</body>
+</html>
